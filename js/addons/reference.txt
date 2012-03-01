@@ -1,0 +1,22 @@
+this is for the slideshow
+
+$('.slideshow').cycle({ fx: 'scrollLeft', timeout: 5000, speed: 800, next:   '#next', prev:   '#previous' });
+
+site for examples http://jquery.malsup.com/cycle/
+
+this is for hoverflow
+
+$(".fade").hover(function(e){
+		$(this).hoverFlow(e.type, {opacity: "1.0"}, 120);
+}, function(e){
+		$(this).hoverFlow(e.type, {opacity: "0.4"}, 300);
+});
+
+this is for colors
+
+	$("#next").hover(function() {
+
+		$(this).stop().animate({backgroundColor: "#C60C30", width: "40px"}, 200);
+		}, function() {
+		$(this).stop().animate({backgroundColor: "#606060", width: "30px"}, 200);
+		});
